@@ -1,0 +1,44 @@
+/* body and main styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* page title & thumbnail styles */
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+.thumbnail-container{
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-container img {
+    margin: 5px;
+}
+
+
+
+
+
+/* main photo styles */
+.main-photo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-photo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+figcaption {
+    text-align: center;
+    margin-top: 10px; /* Add some space between the image and the caption */
+}
